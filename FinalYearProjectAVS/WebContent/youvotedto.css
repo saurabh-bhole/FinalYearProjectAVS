@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+body{
+	margin:0;
+	padding:0;
+	background-color: #ebf0fa;
+	font-family: serif;
+}
+.form-ele{
+	width: 320px;
+	height: 350px;
+	background: transparent;
+	border: 1px solid #2d5986;
+	color: #000;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+}
+.form-ele input{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+.form-ele input[type="submit"]{
+	alignment: center;
+	width: 200px;
+	border: none;
+	ouline: none;
+	height: 40px;
+	background: #2d5986;
+	color: #fff;
+	font-size:16px;
+	border-radius: 20px;
+}
+.form-ele input[type="submit"]:hover{
+	cursor: pointer;
+	background: #3973ac;
+	color: #ebf0fa;
+}
+label{
+	margin:10px;
+font-size:35px;
+font-family:serif;
+}
